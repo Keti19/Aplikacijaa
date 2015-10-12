@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+	<title>Апликација за вработување</title>
+</head>
+<body>
+<table border="1" width="100">
+<tr>
+	<td colspan="4" align="center"><h2>Апликација за вработување</h2></td>
+	<!-- <td></td> -->
+	<!-- <td></td> -->
+	<!-- <td></td> -->
+</tr>
+<tr>
+	<td><h3>Лични податоци</h3></td>
+	<td><h3>Образование</h3></td>
+	<td><h3>Знаење и вештини</h3></td>
+	<td><h3>Работно искуство</h3></td>
+</tr>
+<tr>
+	 <td>
+		 <label for="ime">Име</label><br>
+	     <input type ="text" id="ime">
+	    <br><br>
+	     <label for="prezime">Презиме</label><br>
+	     <input type="text" id="prezime">
+	    <br> <br>
+	     <label for="bday" >Датум на раѓање</label><br>
+	     <input type="date" id"bday">
+	    <br><br>
+	      <label for="email">Е-маил</label><br>
+	      <input type="email"	id="email">
+	    <br><br>
+	      <label for="masko">Машко</label>
+	      <input type="radio"name="pol"  id="masko">
+	    <br>
+	       <label for="zensko">Женско</label>
+	        <input type="radio"name="pol"  id="zensko">
+	    <br><br>
+	       <label for="country">Апликација за работа во град</label>
+           <select id="country">
+           <option></option>
+           <option value="mk">Велес</option>
+           <option value="mk">Скопје</option>
+           <option value="mk">Битола</option>
+           <option value="mk">Охрид</option>
+           </select>
+       <br><br>
+           <label for="telefon">Контакт телефон</label>
+           <input type="tel"name="kontakt" id="telefon">
+       <br><br>
+           <label for="slika">Прикачи фотографија</label>
+           <input type="file" name="img" multiple id="slika">
+        <br><br>
+
+   	    <label for="obrazovanie" >Образвен пофил</label>
+        <select id="obazovanie" >
+        <option>--Избери образовен профил--</option>
+	    <option value>Економски науки</option>
+	    <option value>Правни науки</option>
+	    <option value>Информатички технологии</option>
+	    <option value>Останато</option>
+
+         </select>
+  </td>
+
+	<td>
+		<h4>Степен на образование</h4>
+	<input type="checkbox" name="obazovanie" id="s1"> Средно образование
+    <br>
+	<input type="checkbox" name="obrazovanie" id="s2"> Високо образование
+	<br>
+	<input type="checkbox" name="obrazovanie"  id="s3"> Магистер
+	<br>
+	<input type="checkbox" name="obrazovanie" id="s4"> Доктор на науки
+
+	   <h4>Назив на образовна институција</h4>
+	<textarea name="naziv" rows="1" cols="30"></textarea>
+	<br><br>
+	<label for="nasoka">Насока</label><br>
+	<input type="text" id="nasoka">
+		
+	</td>
+
+
+	<td>
+		<label for="jazici">Јазици</label>
+	<select id="jazici">
+	    <option></option>
+		<option value="rn">Англиски</option>
+		<option value="ru">Руски</option>
+		<option value="de">Гемански</option>
+		<option value="fr">Француски</option>
+	</select>
+	<br><br>
+	<label for="p1">Познавање</label>
+	<input type="number" name="quantity" min="1" max="5" id="p1">
+	<br><br>
+	<label for ="kp">Компјутерски вештини</label><br>
+	<input type="text" id="kp">
+	<br><br>
+      <h4>Возачка дозвола:</h4>
+	<input type="radio" name="vozacka" value="yes">Има
+	<input type="radio" name="vozacka" value="no">Нема
+	<br><br>
+	<h4>Лични особини</h4>
+	<textarea name="osobini" rows="1" cols="30"></textarea>
+	
+	</td>
+
+
+	<td>
+		<label for ="adresa">Назив и адреса на компанијата</label><br>
+	    <input type="text" id="adresa">
+	<br><br>
+	<label for ="mesto">Работно место</label><br>
+	<input type="text" id="mesto">
+	<br><br>
+	<h4>Главни активности и одговоности<h4>
+	<textarea name="aktivnosti" rows="1" cols="30"></textarea>
+	</td>
+
+</tr>
+<tr>
+	<td colspan="4" align="center">
+	<br>
+	<br>
+		<button>Испрати</button>
+	<br>
+	<br>
+	</td>
+	<!-- <td></td> -->
+	<!-- <td></td> -->
+	<!-- <td></td> -->
+
+</tr>
+
+
+</table>
+</body>
+</html>
